@@ -1,0 +1,122 @@
+header {
+	height: 10em;
+    background-image: url(/images/header_img.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 25%;
+    background-size: contains;
+	color: white;
+    margin: 0px 10px 10px 10px;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+}
+
+header h1 {
+    margin: 0;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+	padding-left: 5px;
+	padding-right: 5px;
+    transform: translate(-50%, -50%) 
+}
+
+div#wrapper {
+    margin-left: 10px;
+	margin-right: 10px;
+}
+
+nav {
+	border-radius: 2px;
+    margin: 0px 0px 5px 0px;
+    background-color: lightblue;
+	border: 1px;
+	border-color: black;
+}
+
+nav ul {
+    margin: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li {
+    padding: 0px 15px;
+	display: inline;
+	float: top;
+	font-size: 1.6em;
+}
+
+nav ul li:hover {
+    background-color: #c4e3ed;
+}
+
+nav ul li.active:hover {
+    background-color: #c4e3ed;
+}
+
+nav ul li.active {
+    background-color: #9bdb6e;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+	width: 60px;
+	padding: 8px;
+}
+
+div#content {
+    display: table-cell;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #9bdb6e;
+    padding: 15px;
+}
+
+div#content img{
+    float: right;
+    width: 30em;
+    height: auto;
+    border: 1px solid black;
+}
+
+div#content figure {
+    float: right;
+    width: 30em;
+    height: auto;
+    margin: 0 0 15px 15px;
+    border: 1px solid black;
+}
+
+div#content figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+
+  text-align: center;
+}
+
+footer {
+    border-radius: 2px;
+    margin: 10px;
+    padding: 5px 10px;
+	height: 2em;
+	position: relative;
+	font-size: 1.2em;
+    background-color: lightblue;
+}
+
+footer p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+	padding-left: 5px;
+	padding-right: 5px;
+    transform: translate(-50%, -50%) 
+}
