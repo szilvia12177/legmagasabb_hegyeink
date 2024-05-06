@@ -1,1 +1,3 @@
-# legmagasabb_hegyeink
+# Legmagasabb hegyeink
+
+Dietrich Szilvia beadandó feladat
