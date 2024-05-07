@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title><?= $ablakcim['cim'] . ( (isset($ablakcim['mottó'])) ? ('|' . $ablakcim['mottó']) : '' ) ?></title>
 	<link rel="stylesheet" href="./styles/stilus.css" type="text/css">
+	<link rel="stylesheet" href="./styles/galeria.css" type="text/css">
 	<?php if(file_exists('./styles/'.$keres['fajl_nev'].'.css')) { ?><link rel="stylesheet" href="./styles/<?= $keres['fajl_nev']?>.css" type="text/css"><?php } ?>
 </head>
 <body>

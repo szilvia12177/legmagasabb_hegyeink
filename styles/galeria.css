@@ -1,0 +1,35 @@
+.feltoltes {
+    margin: 15px;
+}
+
+.left-margin {
+    margin-left: 15px;
+}
+
+.feltoltes {
+	display: flex;
+	justify-content: center;	
+}
+
+.felirat {
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+	align-content: center;
+	justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container > img {
+	background-color: white;
+    width: 250px;
+    height: 250px;
+    object-fit: scale-down;
+    margin: 8px;
+    border-radius: 0px;
+    padding: 8px;
+}
