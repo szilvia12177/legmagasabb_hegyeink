@@ -1,7 +1,7 @@
 header {
 	height: 10em;
     background-image: url(/media/header_img.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: 0% 25%;
     background-size: contains;
 	color: white;
@@ -98,6 +98,20 @@ div#content figcaption {
   font: italic smaller sans-serif;
 
   text-align: center;
+}
+
+.header_felhasznalo {
+    margin: -10px 10px 10px 10px;
+	background-color: black;
+	color: white;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+}
+
+.no_felhasznalo {
+	display: none;
 }
 
 footer {

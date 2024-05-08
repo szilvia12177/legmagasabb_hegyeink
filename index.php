@@ -1,6 +1,8 @@
 <?php
 	include('./includes/config.inc.php');
 	
+	//session_start();
+		
 	if (isset($_GET['oldal'])) {
 		$oldal = $_GET['oldal'];
 		if (isset($oldalak[$oldal]) && file_exists("./templates/pages/{$oldalak[$oldal]['fajl_nev']}.tpl.php")) {

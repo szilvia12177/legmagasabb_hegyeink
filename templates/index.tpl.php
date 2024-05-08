@@ -12,10 +12,16 @@
 		<h1><?= $fejlec['cim'] ?></h1>
 		<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
 	</header>
+	<div class="<?php if(isset($_SESSION['felhasznalo'])) { echo "header_felhasznalo"; } else { echo "no_felhasznalo"; } ?> ">Bejelentkezett:
+			<?php if(isset($_SESSION['csaladi_nev'])) { echo $_SESSION['csaladi_nev']; } ?> 
+			<?php if(isset($_SESSION['uto_nev'])) { echo $_SESSION['uto_nev']; } ?> 
+			(<?php if(isset($_SESSION['felhasznalo'])) { echo $_SESSION['felhasznalo']; } ?>)
+	</div>
     <div id="wrapper">
         <div id="nav">
             <nav>
                 <ul>
+					<?php if(isset($_SESSION['felhasznalo'])) { unset($oldalak['belepes']); } else { unset($oldalak['kilepes']); } ?>
 					<?php foreach ($oldalak as $url => $oldal) { ?>
 						<li<?= (($oldal == $keres) ? ' class="active"' : '') ?>>
 						<a href="index.php<?= ($url == '/') ? '' : ('?oldal=' . $url) ?>">

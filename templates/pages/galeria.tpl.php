@@ -1,4 +1,4 @@
-<form class="feltoltes" action="feltoltes.php" method="post" enctype="multipart/form-data">
+<form class="<?php if(isset($_SESSION['felhasznalo'])) { echo "feltoltes"; } else { echo "no_felhasznalo"; } ?> " action="feltoltes.php" method="post" enctype="multipart/form-data">
 	<span class="felirat"><mark>Feltöltés:</mark>&nbsp;</span>
 	<input type="file" accept=".jpg,.jpeg,.png" id="fileFeltoltes" name="fileFeltoltes">
 	<input type="submit" name="submit" value="Feltöltés">
