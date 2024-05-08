@@ -21,7 +21,8 @@
         <div id="nav">
             <nav>
                 <ul>
-					<?php if(isset($_SESSION['felhasznalo'])) { unset($oldalak['belepes']); } else { unset($oldalak['kilepes']); } ?>
+					<?php unset($oldalak['kapcsolat3']); ?>
+					<?php if(isset($_SESSION['felhasznalo'])) { unset($oldalak['belepes']); } else { unset($oldalak['kilepes']); unset($oldalak['uzenetek']); } ?>
 					<?php foreach ($oldalak as $url => $oldal) { ?>
 						<li<?= (($oldal == $keres) ? ' class="active"' : '') ?>>
 						<a href="index.php<?= ($url == '/') ? '' : ('?oldal=' . $url) ?>">

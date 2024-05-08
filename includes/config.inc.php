@@ -26,6 +26,9 @@ $oldalak = array(
 	'/' => array('fajl_nev' => 'fooldal', 'szoveg' => 'Főoldal'),
 	'kapcsolat' => array('fajl_nev' => 'kapcsolat', 'szoveg' => 'Kapcsolat'),
 	'galeria' => array('fajl_nev' => 'galeria', 'szoveg' => 'Galéria'),
+	'uzenetek' => array('fajl_nev' => 'uzenetek', 'szoveg' => 'Üzenetek'),
+	'kapcsolat2' => array('fajl_nev' => 'kapcsolat2', 'szoveg' => 'Üzenetküldés'),
+	'kapcsolat3' => array('fajl_nev' => 'kapcsolat3', 'szoveg' => 'Kapcsolat3'),
 	'belepes' => array('fajl_nev' => 'belepes', 'szoveg' => 'Belépés'),
 	'kilepes' => array('fajl_nev' => 'kilepes', 'szoveg' => 'Kilépés')
 );
