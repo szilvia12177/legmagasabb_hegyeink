@@ -16,7 +16,7 @@
 					$stmt = $db->query("SELECT * FROM kapcsolat ORDER BY kuldes_ideje DESC");
 					while ($row = $stmt->fetch())
 					{
-						echo '<tr>';
+						echo '<tr style="padding:5pt;border-color:black;border:2pt;">';
 						echo "<td>" . $row['felhasznalo'] . "</td>";
 						echo "<td>" . date("Y.m.d H:i:s", strtotime($row['kuldes_ideje'])) . "</td>";
 						echo "<td>" . $row['uzenet'] . "</td>";

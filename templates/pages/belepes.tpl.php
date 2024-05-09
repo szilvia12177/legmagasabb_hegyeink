@@ -1,4 +1,4 @@
-<div>
+<div class="logins">
 	<h3>Bejelentkezés</h3>
     <form action = "belepes.php" method = "post">
       <fieldset>
